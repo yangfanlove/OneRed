@@ -17,31 +17,30 @@ body{
   padding: 0 50px;
 }
 .header{
-  width:818px;
-  height:210px;
-  font-size: 16px;
-  display: inline-block;
-}
-.header .title{
   width: 818px;
-  line-height: 61px;
+  height: 210px;
+  margin: 0 auto;
+  font-size: 16px;
+  .header-title{
+    width: 818px;
+    line-height: 61px;
+    .header-sank{
+      float: left;
+      margin-left: 20px;
+      color: #424242;
+      font-size: 19px;
+    }
+    .header-link{
+      float: left;
+      width: 4px;
+      height: 30px;
+      background: #ffb802;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+  }
 }
-.header .titval{
-  float: left;
-  margin-left: 20px;
-  color: #424242;
-  font-size: 19px;
-}
-.header .titval2{
-  float: left;
-  width: 4px;
-  height: 30px;
-  background: #ffb802;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-
-.header .title2{
+.header-tol{
   width:818px;
   height: 148px;
   float: left;
@@ -49,91 +48,86 @@ body{
   text-align: center;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
+  .tol-berd img{
+    width: 53px;
+    height: 53px;
+    margin-top: 19px;
+  }
+  .tol-berd dd{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #999;
+  }
 
-}
-
-.header .title2 .p{
-  flex: 1;
-
-}
-.header .p img{
-  width: 53px;
-  height: 53px;
-  margin-top: 19px;
-}
-.header .title2 dd{
-  margin-top: 20px;
-  font-size: 16px;
-  color: #999;
 }
 
 .compensation{
   width:100%;
   height:947px;
-  .title{
+  .cps-title{
     font-weight: bold;
     font-size:16px;
     color:#000;
     text-align: left;
     padding:20px 0;
   }
-  .picture{
+  .cps-picture{
     width:100%;
     height:240px;
     text-align:left;
     font-size:16px;
     border-bottom:1px solid #ccc;
-    .picture-p span{
+    .cps-picture span{
       color:#686868;
       font-size:14px;
     }
-    .add{
+    .cps-add{
       width:100%;
       height:162px;
       padding:30px 0;
-      .chunk{
+      .cps-chunk{
         float: left;
         width:160px;
         height:160px;
         border:1px solid #ccc;
         text-align:center;
         margin-right:30px;
-        .jia{
+        .cps-jia{
           font-weight: bold;
           font-size:70px;
           color:#e8e8e8;
         }
-        .content{
+        .cps-content{
           font-size:12px;
           width:78px;
           color:#989898;
           display: inline-block;
         }
       }
-      .di{
+      .cps-di{
         line-height:140px;
       }
     }
   }
 
-  .papers{
+  .cps-papers{
     width:100%;
     height:267px;
     text-align:left;
     font-size:16px;
     border-bottom:1px solid #ccc;
-    .picture-p{
+    .cps-picture{
       padding-top:30px;
     }
-    .picture-p span{
+    .cps-picture span{
       color:#686868;
       font-size:14px;
     }
-    .add{
+    .cps-add{
       width:100%;
       height:162px;
       padding:30px 0;
-      .chunk{
+      .cps-chunk{
         float: left;
         width:160px;
         height:160px;
@@ -146,37 +140,37 @@ body{
           height:160px;
           border-radius: 5px;
         }
-        .jia{
+        .cps-jia{
           font-weight: bold;
           font-size:70px;
           color:#e8e8e8;
         }
       }
-      .di{
+      .cps-di{
         line-height:140px;
       }
 
     }
   }
 
-  .bargain{
+  .cps-bargain{
     width:100%;
     height:267px;
     text-align:left;
     font-size:16px;
     border-bottom:1px solid #ccc;
-    .picture-p{
+    .cps-picture{
       padding-top:30px;
     }
-    .picture-p span{
+    .cps-picture span{
       color:#686868;
       font-size:14px;
     }
-    .add{
+    .cps-add{
       width:100%;
       height:162px;
       padding:30px 0;
-      .chunk{
+      .cps-chunk{
         float: left;
         width:160px;
         height:160px;
@@ -188,19 +182,19 @@ body{
           height:160px;
           border-radius: 5px;
         }
-        .jia{
+        .cps-jia{
           font-weight: bold;
           font-size:70px;
           color:#e8e8e8;
         }
       }
-      .di{
+      .cps-di{
         line-height:140px;
       }
     }
   }
 
-  .btn{
+  .cps-btn{
     margin-top:40px;
     button{
       margin-right:158px;

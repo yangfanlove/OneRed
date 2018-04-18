@@ -17,31 +17,30 @@ body{
   padding: 0 50px;
 }
 .header{
-  width:818px;
-  height:210px;
-  font-size: 16px;
-  display: inline-block;
-}
-.header .title{
   width: 818px;
-  line-height: 61px;
+  height: 210px;
+  margin: 0 auto;
+  font-size: 16px;
+  .header-title{
+    width: 818px;
+    line-height: 61px;
+    .header-sank{
+      float: left;
+      margin-left: 20px;
+      color: #424242;
+      font-size: 19px;
+    }
+    .header-link{
+      float: left;
+      width: 4px;
+      height: 30px;
+      background: #ffb802;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+  }
 }
-.header .titval{
-  float: left;
-  margin-left: 20px;
-  color: #424242;
-  font-size: 19px;
-}
-.header .titval2{
-  float: left;
-  width: 4px;
-  height: 30px;
-  background: #ffb802;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-
-.header .title2{
+.header-tol{
   width:818px;
   height: 148px;
   float: left;
@@ -49,83 +48,73 @@ body{
   text-align: center;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
+  .tol-berd img{
+    width: 53px;
+    height: 53px;
+    margin-top: 19px;
+  }
+  .tol-berd dd{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #999;
+  }
 
 }
 
-.header .title2 .p{
-  flex: 1;
-
-}
-.header .p img{
-  width: 53px;
-  height: 53px;
-  margin-top: 19px;
-}
-.header .title2 dd{
-  margin-top: 20px;
-  font-size: 16px;
-  color: #999;
-}
-
-.report{
+.report {
   width: 818px;
   height: 420px;
   display: inline-block;
-  .top{
+  .rept-top {
     width: 818px;
     height: 75px;
     line-height: 75px;
     background: #FFFFFF;
   }
-  .top p{
+  .rept-top p {
     text-align: left;
     font-size: 16px;
     margin-left: 20px;
   }
-  .bottom{
-    width: 818px;
-    height: 345px;
-    //  background: pink;
-    text-align: left;
-  }
+}
 
-  .bao{
+.rept-bottom {
+  width: 818px;
+  height: 345px;
+  //  background: pink;
+  text-align: left;
+  .rept-bao {
     width: 818px;
     height: 39px;
     line-height: 39px;
     background: #e5edf1;
-
   }
-
-  .bottom table{
-    width: 100%;
-    border: #e9e9e9;
-  }
-  .bao p{
+  .rept-bao p {
     margin-left: 25px;
     font-weight: bold;
   }
+}
 
-  .text-center{
+.rept-bottom table {
+  width: 100%;
+  border: #e9e9e9;
+  .table-center {
     text-align: center;
   }
-
-
-  .tr-top1{
+  .table-one {
     font-size: 14px;
     color: #a4a4a5;
     height: 42px;
-
   }
-  .tr-top2{
+  .table-two {
     font-size: 16px;
     height: 42px;
   }
-  .tr-top3{
+  .table-three {
     font-size: 16px;
     height: 42px;
   }
-  .tr-top4{
+  .table-five {
     font-size: 14px;
     color: #a4a4a5;
     height: 42px;
@@ -137,34 +126,34 @@ body{
   height:442px;
   background:#fff;
   margin-top:20px;
-  .title{
+  .uld-title{
     height:40px;
     background:#e5ecf1;
   }
-  .title p{
+  .uld-title p{
     text-align:left;
     margin-left:24px;
     line-height:40px;
   }
-  .address{
+  .uld-address{
     height:244px;
     padding: 0 20px;
     border:1px solid #ccc;
     border-top:0;
   }
-  .chunk{
+  .uld-chunk{
     height:80px;
     border-bottom:1px solid #ccc;
-    .name{
+    .uld-name{
       float: left;
     }
-    .name p{
+    .uld-name p{
       line-height:80px;
       margin-right:30px;
       text-align:left;
       font-size:14px;
     }
-    .img img{
+    .uld-img img{
       width:80px;
       height:60px;
       margin-right:28px;
@@ -172,17 +161,17 @@ body{
       float: left;
     }
   }
-  .di{
+  .uld-di{
     border:0;
   }
-  .yes{
+  .uld-yes{
     padding:30px 0;
     p{
       font-size:14px;
       text-align:left;
     }
   }
-  .btn{
+  .uld-btn{
     margin-top:10px;
     button{
       margin-right:158px;
